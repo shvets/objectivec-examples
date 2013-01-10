@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA01B02AE6584B1C80AA45A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BA01B29BF588DFE93EDFA11B /* Default.png */; };
+		BA01B09F3B0AD88CE02D90AE /* Magic8BallController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01BCEEAB4C3FEF8479B5F8 /* Magic8BallController.m */; };
+		BA01B19182175AF9EA9A62F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA01BD234F1B802893B65BA9 /* UIKit.framework */; };
+		BA01B1B3C74A80806C49CEFC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA01BFF03DF049784BBA7B5D /* Default@2x.png */; };
+		BA01B34340F0812D7030826E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA01B52562577217C74A9640 /* Foundation.framework */; };
+		BA01B3B798EF3DFD037974E6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA01B53941A9FAEFC5CD276F /* icon.png */; };
+		BA01B3EBE4D0722475B2D83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA01B52562577217C74A9640 /* Foundation.framework */; };
+		BA01B439206869C936194082 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA01B5DD3353D6EA497CFC0A /* InfoPlist.strings */; };
+		BA01B44BE023A44921DDA04B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA01B5609EF948CD1FAD7900 /* InfoPlist.strings */; };
+		BA01B528CF4A521BF315FD9A /* Magic8Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01B76BAD0819998A7D4174 /* Magic8Ball.m */; };
+		BA01B6076D6E8229F1AD6157 /* Magic8BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01B61551D48933680AEEA6 /* Magic8BallView.m */; };
+		BA01B643E6DBDF5D5F7CDAAF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BA01BB18ED3294B5FABAF71A /* background.png */; };
+		BA01B7CDF98023393F770197 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA01BEBCD3AAB95EBB69E6C5 /* Default-568h@2x.png */; };
+		BA01B83B43648427DE3A59AD /* magic8ballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01B6BFBE319B17361DE774 /* magic8ballTests.m */; };
+		BA01B848AAA15C3BEFB47DF6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA01B89DB71ED230C77746D3 /* SenTestingKit.framework */; };
+		BA01BBFB95DC43AF24911C3F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01B80B1644FF9270136C99 /* MainStoryboard_iPhone.storyboard */; };
+		BA01BC4F5905243527BBB609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01B7D2912DE8B5FCFA33CB /* main.m */; };
+		BA01BCDD12AA283CFE2387A0 /* answers.json in Resources */ = {isa = PBXBuildFile; fileRef = BA01B366509CBA407B7D29E2 /* answers.json */; };
+		BA01BD44CFB52878B76B686A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA01BD234F1B802893B65BA9 /* UIKit.framework */; };
+		BA01BD646AB6E697FE2F8B46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01B86FD1F1E065396CDFF9 /* AppDelegate.m */; };
+		BA01BF5F3C993BF1B845D12F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA01B6F7978D3F5BDFDBE2D3 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA01BCF796836B96C21E94F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA01B481D4DC35422664B5D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA01BB7E4DCEFA79C06DECF2;
+			remoteInfo = magic8ball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA01B22E2F753CE428464F6C /* Magic8BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8BallView.h; sourceTree = "<group>"; };
+		BA01B29BF588DFE93EDFA11B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BA01B366509CBA407B7D29E2 /* answers.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; name = answers.json; path = answers.json; sourceTree = "<group>"; };
+		BA01B38A6012931311117AF7 /* magic8ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magic8ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01B52562577217C74A9640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA01B537751F1CFD021FA5E2 /* magic8ballTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = magic8ballTests.h; sourceTree = "<group>"; };
+		BA01B53941A9FAEFC5CD276F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BA01B5AC2F3A3CDCB9BF71E9 /* magic8ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "magic8ball-Info.plist"; sourceTree = "<group>"; };
+		BA01B61551D48933680AEEA6 /* Magic8BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8BallView.m; sourceTree = "<group>"; };
+		BA01B6BFBE319B17361DE774 /* magic8ballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magic8ballTests.m; sourceTree = "<group>"; };
+		BA01B6F7978D3F5BDFDBE2D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA01B76BAD0819998A7D4174 /* Magic8Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8Ball.m; sourceTree = "<group>"; };
+		BA01B7A6DD837E977234AC1C /* magic8ballTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magic8ballTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01B7D2912DE8B5FCFA33CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA01B80B1644FF9270136C99 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BA01B86FD1F1E065396CDFF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA01B89DB71ED230C77746D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA01B9610305086FE726EECB /* magic8ball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magic8ball-Prefix.pch"; sourceTree = "<group>"; };
+		BA01B9D5A9A79E0FB2871671 /* magic8ballTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "magic8ballTests-Info.plist"; sourceTree = "<group>"; };
+		BA01B9EFAB16C6FAE143A3AC /* Magic8BallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8BallController.h; sourceTree = "<group>"; };
+		BA01BB18ED3294B5FABAF71A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = background.png; sourceTree = "<group>"; };
+		BA01BC937BAE3F0AE24B325C /* Magic8Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8Ball.h; sourceTree = "<group>"; };
+		BA01BCEEAB4C3FEF8479B5F8 /* Magic8BallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8BallController.m; sourceTree = "<group>"; };
+		BA01BD11D3C7D454DBB5A5F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA01BD234F1B802893B65BA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA01BD8623E59B278B394E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA01BEBCD3AAB95EBB69E6C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA01BF04C3FB833F7CCE079B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA01BFF03DF049784BBA7B5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA01B2F9EE0E1E86F58155BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01BD44CFB52878B76B686A /* UIKit.framework in Frameworks */,
+				BA01B34340F0812D7030826E /* Foundation.framework in Frameworks */,
+				BA01BF5F3C993BF1B845D12F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01B4E3CA041A80CC342052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01B848AAA15C3BEFB47DF6 /* SenTestingKit.framework in Frameworks */,
+				BA01B19182175AF9EA9A62F8 /* UIKit.framework in Frameworks */,
+				BA01B3EBE4D0722475B2D83A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA01B221CC895AF70C294063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA01B38A6012931311117AF7 /* magic8ball.app */,
+				BA01B7A6DD837E977234AC1C /* magic8ballTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA01B27C7133821A1903899C = {
+			isa = PBXGroup;
+			children = (
+				BA01B221CC895AF70C294063 /* Products */,
+				BA01BFDAF1B91582DEAFD559 /* Frameworks */,
+				BA01B49EB10D47CADE121586 /* magic8ball */,
+				BA01BB22CDDB490C154CFC33 /* magic8ballTests */,
+			);
+			sourceTree = "<group>";
+		};
+		BA01B49EB10D47CADE121586 /* magic8ball */ = {
+			isa = PBXGroup;
+			children = (
+				BA01B8903585D7FEA990CDC3 /* Supporting Files */,
+				BA01BF04C3FB833F7CCE079B /* AppDelegate.h */,
+				BA01B86FD1F1E065396CDFF9 /* AppDelegate.m */,
+				BA01BB18ED3294B5FABAF71A /* background.png */,
+				BA01B366509CBA407B7D29E2 /* answers.json */,
+				BA01B53941A9FAEFC5CD276F /* icon.png */,
+				BA01BC937BAE3F0AE24B325C /* Magic8Ball.h */,
+				BA01B76BAD0819998A7D4174 /* Magic8Ball.m */,
+				BA01B9EFAB16C6FAE143A3AC /* Magic8BallController.h */,
+				BA01BCEEAB4C3FEF8479B5F8 /* Magic8BallController.m */,
+				BA01B22E2F753CE428464F6C /* Magic8BallView.h */,
+				BA01B61551D48933680AEEA6 /* Magic8BallView.m */,
+				BA01B80B1644FF9270136C99 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = magic8ball;
+			sourceTree = "<group>";
+		};
+		BA01B8903585D7FEA990CDC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA01B5AC2F3A3CDCB9BF71E9 /* magic8ball-Info.plist */,
+				BA01B5609EF948CD1FAD7900 /* InfoPlist.strings */,
+				BA01B7D2912DE8B5FCFA33CB /* main.m */,
+				BA01B9610305086FE726EECB /* magic8ball-Prefix.pch */,
+				BA01B29BF588DFE93EDFA11B /* Default.png */,
+				BA01BFF03DF049784BBA7B5D /* Default@2x.png */,
+				BA01BEBCD3AAB95EBB69E6C5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA01BB22CDDB490C154CFC33 /* magic8ballTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA01BD6E942DE75D011BF7B5 /* Supporting Files */,
+				BA01B537751F1CFD021FA5E2 /* magic8ballTests.h */,
+				BA01B6BFBE319B17361DE774 /* magic8ballTests.m */,
+			);
+			path = magic8ballTests;
+			sourceTree = "<group>";
+		};
+		BA01BD6E942DE75D011BF7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA01B9D5A9A79E0FB2871671 /* magic8ballTests-Info.plist */,
+				BA01B5DD3353D6EA497CFC0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA01BFDAF1B91582DEAFD559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA01BD234F1B802893B65BA9 /* UIKit.framework */,
+				BA01B52562577217C74A9640 /* Foundation.framework */,
+				BA01B6F7978D3F5BDFDBE2D3 /* CoreGraphics.framework */,
+				BA01B89DB71ED230C77746D3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA01BB7E4DCEFA79C06DECF2 /* magic8ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01B6933B414C5D60EE9DF8 /* Build configuration list for PBXNativeTarget "magic8ball" */;
+			buildPhases = (
+				BA01B6FF7D4F9449617DE66C /* Sources */,
+				BA01B2F9EE0E1E86F58155BA /* Frameworks */,
+				BA01BE70CA2D3D67DD12D376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magic8ball;
+			productName = magic8ball;
+			productReference = BA01B38A6012931311117AF7 /* magic8ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA01BD186803CC9BC1E64761 /* magic8ballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01B6F357D582CC2B9D5267 /* Build configuration list for PBXNativeTarget "magic8ballTests" */;
+			buildPhases = (
+				BA01B2841D0D1977CCC16999 /* Sources */,
+				BA01B4E3CA041A80CC342052 /* Frameworks */,
+				BA01B036F08625B4E1722EAE /* Resources */,
+				BA01BF2E0E0A48B2780536A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA01B1B5156E6CA24438327F /* PBXTargetDependency */,
+			);
+			name = magic8ballTests;
+			productName = magic8ballTests;
+			productReference = BA01B7A6DD837E977234AC1C /* magic8ballTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA01B481D4DC35422664B5D8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BA01B31FF6A37FD60901E8AB /* Build configuration list for PBXProject "magic8ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA01B27C7133821A1903899C;
+			productRefGroup = BA01B221CC895AF70C294063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA01BB7E4DCEFA79C06DECF2 /* magic8ball */,
+				BA01BD186803CC9BC1E64761 /* magic8ballTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA01B036F08625B4E1722EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01B439206869C936194082 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01BE70CA2D3D67DD12D376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01B44BE023A44921DDA04B /* InfoPlist.strings in Resources */,
+				BA01B02AE6584B1C80AA45A4 /* Default.png in Resources */,
+				BA01B1B3C74A80806C49CEFC /* Default@2x.png in Resources */,
+				BA01B7CDF98023393F770197 /* Default-568h@2x.png in Resources */,
+				BA01BCDD12AA283CFE2387A0 /* answers.json in Resources */,
+				BA01B643E6DBDF5D5F7CDAAF /* background.png in Resources */,
+				BA01B3B798EF3DFD037974E6 /* icon.png in Resources */,
+				BA01BBFB95DC43AF24911C3F /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA01BF2E0E0A48B2780536A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA01B2841D0D1977CCC16999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01B83B43648427DE3A59AD /* magic8ballTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01B6FF7D4F9449617DE66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01BC4F5905243527BBB609 /* main.m in Sources */,
+				BA01BD646AB6E697FE2F8B46 /* AppDelegate.m in Sources */,
+				BA01B528CF4A521BF315FD9A /* Magic8Ball.m in Sources */,
+				BA01B09F3B0AD88CE02D90AE /* Magic8BallController.m in Sources */,
+				BA01B6076D6E8229F1AD6157 /* Magic8BallView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA01B1B5156E6CA24438327F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA01BB7E4DCEFA79C06DECF2 /* magic8ball */;
+			targetProxy = BA01BCF796836B96C21E94F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA01B5609EF948CD1FAD7900 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA01BD8623E59B278B394E31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA01B5DD3353D6EA497CFC0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA01BD11D3C7D454DBB5A5F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA01B2811229310E52E7C59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magic8ball.app/magic8ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic8ball/magic8ball-Prefix.pch";
+				INFOPLIST_FILE = "magic8ballTests/magic8ballTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		BA01B8CBF2325DDEB46BB134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic8ball/magic8ball-Prefix.pch";
+				INFOPLIST_FILE = "magic8ball/magic8ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA01B8F4B3A13E9B8A4B7263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA01B93A9AD5171D52690698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic8ball/magic8ball-Prefix.pch";
+				INFOPLIST_FILE = "magic8ball/magic8ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA01B95A462400F5A92DCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA01BA7761016ADA2E09A6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magic8ball.app/magic8ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic8ball/magic8ball-Prefix.pch";
+				INFOPLIST_FILE = "magic8ballTests/magic8ballTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA01B31FF6A37FD60901E8AB /* Build configuration list for PBXProject "magic8ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01B95A462400F5A92DCDDA /* Release */,
+				BA01B8F4B3A13E9B8A4B7263 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA01B6933B414C5D60EE9DF8 /* Build configuration list for PBXNativeTarget "magic8ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01B93A9AD5171D52690698 /* Release */,
+				BA01B8CBF2325DDEB46BB134 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA01B6F357D582CC2B9D5267 /* Build configuration list for PBXNativeTarget "magic8ballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01B2811229310E52E7C59C /* Release */,
+				BA01BA7761016ADA2E09A6AA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA01B481D4DC35422664B5D8 /* Project object */;
+}

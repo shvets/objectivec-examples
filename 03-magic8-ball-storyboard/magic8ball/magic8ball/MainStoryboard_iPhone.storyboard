@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="chJ-J2-1BS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Magic8 Ball Controller-->
+        <scene sceneID="O3k-eH-CIl">
+            <objects>
+                <viewController storyboardIdentifier="Magic8BallController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="chJ-J2-1BS" customClass="Magic8BallController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vjt-Zl-faq" customClass="Magic8BallView">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tap for answer:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3L-yx-Dg0">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8v-VS-Gq7">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O8v-VS-Gq7" firstAttribute="top" secondItem="Vjt-Zl-faq" secondAttribute="top" constant="87" id="T0e-5s-sGS"/>
+                            <constraint firstItem="Y3L-yx-Dg0" firstAttribute="top" secondItem="Vjt-Zl-faq" secondAttribute="top" constant="41" id="haA-TN-C6w"/>
+                            <constraint firstItem="O8v-VS-Gq7" firstAttribute="leading" secondItem="Vjt-Zl-faq" secondAttribute="leading" constant="54" id="kwr-Xe-5Qo"/>
+                            <constraint firstItem="Y3L-yx-Dg0" firstAttribute="leading" secondItem="Vjt-Zl-faq" secondAttribute="leading" constant="33" id="prG-X1-mDD"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="answerLabel" destination="O8v-VS-Gq7" id="WOt-x1-xXF"/>
+                            <outlet property="questionLabel" destination="Y3L-yx-Dg0" id="e7U-rj-Lna"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRg-ia-LJ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="96"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="Magic8BallController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Magic8BallController.h"/>
+            <relationships>
+                <relationship kind="action" name="showAnswer:"/>
+            </relationships>
+        </class>
+        <class className="Magic8BallView" superclassName="UIImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Magic8BallView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="answerLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="questionLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
